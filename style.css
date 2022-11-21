@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 80%;
+    height: 1600px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#add-task{
+    height: 60px;
+    display: flex;
+    margin: 10px 0px;
+    border: 1px solid salmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.select-div{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+}
+
+#add-button{
+    padding: 5px 10px;
+    border-radius: 28px;
+}
+
+#tasks{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    border: 1px solid blueviolet;
+    justify-content: space-between;
+
+
+}
+#times-section{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.time-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 60px;
+}
+.time-div::before{
+    content: "";
+    width: 20%;
+    background-color: lightgrey;
+    height: 2px;
+}
+
+#tasks-section{
+    position: relative;
+    width: 70%;
+}
+
+.task{
+    position: absolute;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: aliceblue;
+}
+
+select{
+    height: 30%;
+    width: 40%;
+}
+
+.task-detail{
+    max-width: 50px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+#task-input-div{
+    width: 50%;
+}
